@@ -1,0 +1,258 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-10-12 02:30+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/LangController.php:24
+msgid "Map"
+msgstr ""
+
+#: Controller/LangController.php:25
+msgid "Edit"
+msgstr ""
+
+#: Controller/LangController.php:26
+#: Template/Pages/main.ctp:155
+msgid "Downloads"
+msgstr ""
+
+#: Controller/LangController.php:27
+msgid "About this page"
+msgstr ""
+
+#: Controller/LangController.php:29
+msgid "Get directions"
+msgstr ""
+
+#: Controller/LangController.php:30
+msgid "Search village, hotel, restaurant, shop, etc."
+msgstr ""
+
+#: Controller/LangController.php:31
+msgid "Clear"
+msgstr ""
+
+#: Controller/LangController.php:32
+msgid "Search village, point of interest, etc."
+msgstr ""
+
+#: Controller/LangController.php:33
+msgid "Distance"
+msgstr ""
+
+#: Controller/LangController.php:34
+msgid "{0} km"
+msgstr ""
+
+#: Controller/LangController.php:35
+msgid "Duration"
+msgstr ""
+
+#: Controller/LangController.php:36
+msgid "{1} h {2} mins"
+msgstr ""
+
+#: Controller/LangController.php:37
+msgid "Add start"
+msgstr ""
+
+#: Controller/LangController.php:38
+msgid "Double click to remove"
+msgstr ""
+
+#: Controller/LangController.php:39
+msgid "No route found"
+msgstr ""
+
+#: Controller/LangController.php:40
+msgid "Server is currently unreachable or its answer is invalid."
+msgstr ""
+
+#: Controller/LangController.php:41
+msgid "Not found"
+msgstr ""
+
+#: Controller/LangController.php:42
+msgid "Click to add new via point"
+msgstr ""
+
+#: Controller/LangController.php:43
+msgid "Routing powered by "
+msgstr ""
+
+#: Controller/LangController.php:45
+msgid "Add destination"
+msgstr ""
+
+#: Controller/LangController.php:46
+msgid "Drag to change route or double click to remove"
+msgstr ""
+
+#: Controller/LangController.php:47
+msgid "Loading..."
+msgstr ""
+
+#: Controller/LangController.php:48
+msgid "Satellite"
+msgstr ""
+
+#: Controller/LangController.php:50
+msgid "Lao"
+msgstr ""
+
+#: Controller/LangController.php:51
+msgid "English"
+msgstr ""
+
+#: Controller/LangController.php:52
+msgid "Permanent link to current map view"
+msgstr ""
+
+#: Controller/LangController.php:54
+msgid "edit the map"
+msgstr ""
+
+#: Controller/LangController.php:55
+msgid "Link"
+msgstr ""
+
+#: Controller/LangController.php:56
+msgid "Language"
+msgstr ""
+
+#: Template/Pages/main.ctp:12;102
+msgid "OpenStreetMap Laos"
+msgstr ""
+
+#: Template/Pages/main.ctp:105
+msgid "The free wiki world map"
+msgstr ""
+
+#: Template/Pages/main.ctp:120
+msgid "Edit the map"
+msgstr ""
+
+#: Template/Pages/main.ctp:125
+msgid "Topographic Map TMS"
+msgstr ""
+
+#: Template/Pages/main.ctp:127
+msgid "Support in mapping geographical features provides the <a href=\"http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification\" class=\"external\">Tile Map Service</a>, which serves topographic maps for northern Laos. These topographic maps from the 1960ies were made by the US Army Map Service in the scales of 1:200000 and 1:50000. Meanwhile these maps are released to the public domain and available at the <a href=\"http://www.lib.utexas.edu/maps/laos.html\" class=\"external\">University of Texas Libraries</a>."
+msgstr ""
+
+#: Template/Pages/main.ctp:130
+msgid "The tile map service is accessible at:"
+msgstr ""
+
+#: Template/Pages/main.ctp:135
+msgid "To use these topographic maps in <a href=\"http://josm.openstreetmap.de/\" class=\"external\">JOSM</a> open the \"Imagery Preferences\" tab in the preferences dialog and add a new TMS entry."
+msgstr ""
+
+#: Template/Pages/main.ctp:138
+msgid "Use the following settings:"
+msgstr ""
+
+#: Template/Pages/main.ctp:148
+msgid "More detailed instructions on how to add custom imagery is available at"
+msgstr ""
+
+#: Template/Pages/main.ctp:162;163;181;182
+msgid "Complete database"
+msgstr ""
+
+#: Template/Pages/main.ctp:164;183
+msgid "Amenities"
+msgstr ""
+
+#: Template/Pages/main.ctp:165;184
+msgid "Buildings"
+msgstr ""
+
+#: Template/Pages/main.ctp:166;185
+msgid "Country"
+msgstr ""
+
+#: Template/Pages/main.ctp:167;186
+msgid "National Parks"
+msgstr ""
+
+#: Template/Pages/main.ctp:168;187
+msgid "Places"
+msgstr ""
+
+#: Template/Pages/main.ctp:169;188
+msgid "Provinces"
+msgstr ""
+
+#: Template/Pages/main.ctp:170;189
+msgid "Roads"
+msgstr ""
+
+#: Template/Pages/main.ctp:171;190
+msgid "Waterways"
+msgstr ""
+
+#: Template/Pages/main.ctp:172;191
+msgid "Waterbodies"
+msgstr ""
+
+#: Template/Pages/main.ctp:173;192
+msgid "Routable GPS map"
+msgstr ""
+
+#: Template/Pages/main.ctp:174;175;193;194
+msgid "Points of Interest"
+msgstr ""
+
+#: Template/Pages/main.ctp:177
+msgid "Laos"
+msgstr ""
+
+#: Template/Pages/main.ctp:196
+msgid "Cambodia"
+msgstr ""
+
+#: Template/Pages/main.ctp:200
+msgid "Content"
+msgstr ""
+
+#: Template/Pages/main.ctp:200
+msgid "Download Size"
+msgstr ""
+
+#: Template/Pages/main.ctp:215
+msgid "Last data update"
+msgstr ""
+
+#: Template/Pages/main.ctp:233
+msgid "unknown"
+msgstr ""
+
+#: Template/Pages/main.ctp:241
+msgid "About OpenStreetMap.la"
+msgstr ""
+
+#: Template/Error/error400.ctp:33
+#: Template/Error/error500.ctp:35
+msgid "Error"
+msgstr ""
+
+#: Template/Error/error400.ctp:35
+msgid "The requested address %s was not found on this server."
+msgstr ""
+
+#: Template/Error/error500.ctp:33
+msgid "An Internal Error Has Occurred"
+msgstr ""
+

@@ -1,0 +1,13 @@
+# CakePHP 3
+
+/vendor/*
+/config/app.php
+/tmp/*
+/logs/*
+/bin/*
+
+# Ignore JavaScript libraries
+/webroot/lib/ext-3.3.0
+/webroot/lib/leaflet-0.5.1
+# Ignore compiled translation files
+*.mo
