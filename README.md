@@ -1,2 +1,2 @@
-# www.openstreetmap.la
-Repository for www.openstreetmap.la
+# OpenStreetMap Laos
+Repository for www.openstreetmap.la based on CakePHP 3.x
