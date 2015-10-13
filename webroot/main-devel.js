@@ -315,7 +315,7 @@ Ext.onReady(function(){
             tbar: new Ext.ux.LanguageToolbar({
                 currentLang: currentLang,
                 statusControl: statusControl,
-                url: '/edit/'
+                url: Ext.ux.services.get("base") + "edit/"
             }),
             xtype: 'panel'
         },
@@ -327,7 +327,7 @@ Ext.onReady(function(){
             tbar: new Ext.ux.LanguageToolbar({
                 currentLang: currentLang,
                 statusControl: statusControl,
-                url: '/downloads/'
+                url: Ext.ux.services.get("base") + "downloads/"
             }),
             xtype: 'panel'
         },{
@@ -338,7 +338,7 @@ Ext.onReady(function(){
             tbar: new Ext.ux.LanguageToolbar({
                 currentLang: currentLang,
                 statusControl: statusControl,
-                url: '/about/'
+                url: Ext.ux.services.get("base") + "about/"
             }),
             xtype: 'panel'
         }],
