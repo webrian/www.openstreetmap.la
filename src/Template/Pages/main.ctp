@@ -19,10 +19,7 @@ use Cake\Core\Configure;
         <?php
         echo $this->Html->css("/lib/ext-3.3.0/resources/css/ext-all-notheme.css");
         echo $this->Html->css("/lib/ext-3.3.0/resources/css/xtheme-gray.css");
-        echo $this->Html->css("/lib/leaflet-0.5.1/dist/leaflet.css");
-        ?>
-        <!--[if lte IE 8]><?php echo $this->Html->css("/lib/leaflet-0.5.1/dist/leaflet.ie.css"); ?><![endif]-->
-        <?php
+        echo $this->Html->css("/lib/leaflet-0.7.5/leaflet.css");
         echo $this->Html->css("/style.css");
         ?>
 
@@ -31,12 +28,11 @@ use Cake\Core\Configure;
         <?php echo $this->Html->script("/lib/ext-3.3.0/adapter/ext/ext-base.js"); ?>
 
         <!-- ExtJS library: all widgets -->
-        <?php echo $this->Html->script("/lib/ext-3.3.0/ext-all-osmla.js"); ?>
-
-        <?php echo $this->Html->script("/lib/leaflet-0.5.1/dist/leaflet.js"); ?>
-
-        <!--script src="/lang?_dc=<?php echo time(); ?>" type="text/javascript"></script-->
-        <?php echo $this->Html->script("/lang.js?_dc=" . time()); ?>
+        <?php
+        echo $this->Html->script("/lib/ext-3.3.0/ext-all-osmla.js");
+        echo $this->Html->script("/lib/leaflet-0.7.5/leaflet.js");
+        echo $this->Html->script("/lang.js?_dc=" . time()); 
+        ?>
 
         <!-- page specific -->
         <script type="text/javascript">
