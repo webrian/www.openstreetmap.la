@@ -5,6 +5,7 @@
 /tmp/*
 /logs/*
 /bin/*
+composer.lock
 
 # Ignore JavaScript libraries
 /webroot/lib/ext-3.3.0
