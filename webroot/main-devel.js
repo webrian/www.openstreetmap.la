@@ -65,7 +65,7 @@ L.StartIcon = L.Icon.extend({
         iconAnchor: new L.Point(12, 41),
         iconSize: new L.Point(25, 41),
         iconUrl: './img/startmarker.png',
-        shadowUrl: './lib/leaflet-0.5.1/dist/images/marker-shadow.png'
+        shadowUrl: './lib/leaflet-0.7.5/images/marker-shadow.png'
     }
 });
 
@@ -74,7 +74,7 @@ L.EndIcon = L.Icon.extend({
         iconAnchor: new L.Point(12, 41),
         iconSize: new L.Point(25, 41),
         iconUrl: './img/endmarker.png',
-        shadowUrl: './lib/leaflet-0.5.1/dist/images/marker-shadow.png'
+        shadowUrl: './lib/leaflet-0.7.5/images/marker-shadow.png'
     }
 });
 
