@@ -25,13 +25,17 @@ use Cake\Core\Configure;
 
         <!-- ** Javascript ** -->
         <!-- ExtJS library: base/adapter -->
-        <?php echo $this->Html->script("/lib/ext-3.3.0/adapter/ext/ext-base.js"); ?>
+        <?php echo $this->Html->script("/lib/ext-3.3.0/adapter/ext/ext-base.js",
+                                       ['type' => 'text/javascript']); ?>
 
         <!-- ExtJS library: all widgets -->
         <?php
-        echo $this->Html->script("/lib/ext-3.3.0/ext-all-osmla.js");
-        echo $this->Html->script("/lib/leaflet-0.7.5/leaflet.js");
-        echo $this->Html->script("/lang.js?_dc=" . time()); 
+        echo $this->Html->script("/lib/ext-3.3.0/ext-all-osmla.js",
+                                 ['type' => 'text/javascript']);
+        echo $this->Html->script("/lib/leaflet-0.7.5/leaflet.js",
+                                 ['type' => 'text/javascript']);
+        echo $this->Html->script("/lang.js?_dc=" . time(),
+                                 ['type' => 'text/javascript']); 
         ?>
 
         <!-- page specific -->
@@ -85,10 +89,13 @@ echo "'directions': '" . $this->Url->build("/directions") . "'});";
         </script>
 <?php
     if (Configure::read("debug") == 0) {
-        echo $this->Html->script("/main.js");
+        echo $this->Html->script("/main.js",
+                                 ['type' => 'text/javascript']);
     } else {
         $date = date_create();
-        echo $this->Html->script("/main-devel.js?_dc=" . date_timestamp_get($date));
+        echo $this->Html->script("/main-devel.js?_dc="
+                                 . date_timestamp_get($date),
+                                 ['type' => 'text/javascript']);
     }
 ?>
 <?php echo $this->element("/cookieconsent"); ?>

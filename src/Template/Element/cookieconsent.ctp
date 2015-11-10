@@ -18,10 +18,13 @@ use Cake\Core\Configure;
 
 <?php
     if (Configure::read("debug") == 0) {
-        echo $this->Html->script("/lib/cookieconsent.latest.min.js");
+        echo $this->Html->script("/lib/cookieconsent.latest.min.js",
+                                 ['type' => 'text/javascript']);
     } else {
         $date = date_create();
-        echo $this->Html->script("/lib/cookieconsent.latest.js?_dc=" . date_timestamp_get($date));
+        echo $this->Html->script("/lib/cookieconsent.latest.js?_dc="
+                                 . date_timestamp_get($date),
+                                 ['type' => 'text/javascript']);
     }
 ?>
 <!-- End cookie consent plugin -->
