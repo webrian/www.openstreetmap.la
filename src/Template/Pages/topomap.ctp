@@ -1,10 +1,7 @@
 <html>
     <head>
-        <?php echo $this->Html->css("/lib/leaflet-0.5.1/dist/leaflet.css") . "\n"; ?>
-        <!--[if lte IE 8]>
-            <?php echo $this->Html->css("/lib/leaflet-0.5.1/dist/leaflet.ie.css") . "\n"; ?>
-        <![endif]-->
-        <?php echo $this->Html->script("/lib/leaflet-0.5.1/dist/leaflet.js"). "\n"; ?>
+        <?php echo $this->Html->css("/lib/leaflet-0.7.5/leaflet.css") . "\n"; ?>
+        <?php echo $this->Html->script("/lib/leaflet-0.7.5/leaflet.js"). "\n"; ?>
         <style type="text/css">
             #map { right: 10px; top: 10px; left: 10px; bottom: 10px; position: absolute; }
         </style>
