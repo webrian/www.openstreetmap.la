@@ -1,14 +1,16 @@
 <?php
 use Cake\Core\Configure;
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?php
+// Set the doctype to xhtml 1.0 strict
+echo $this->Html->docType("xhtml-strict") . "\n";
+?>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head profile="http://a9.com/-/spec/opensearch/1.1/">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="google-site-verification" content="cXvQfuOySAHBWbH1EvKsUGZk5S7_nU2f_lcG2rqZrr0" />
-        <meta name="msvalidate.01" content="E23E53812CB2D24F8FC5D93E0828007D" />
+<?php
+// Add meta tags
+echo $this->element("/metatags");
+?>
         <title><?php echo __('OpenStreetMap Laos'); ?></title>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <!-- Link to the OpenSearch description document -->
