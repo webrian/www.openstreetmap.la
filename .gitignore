@@ -12,3 +12,10 @@ composer.lock
 /webroot/lib/leaflet-*
 # Ignore compiled translation files
 *.mo
+
+# Ignore Bootstrap and JQuery
+/webroot/css/bootstrap*
+/webroot/lib/bootstrap*
+/webroot/fonts/
+/webroot/lib/jquery*
+/webroot/lib/npm.js
