@@ -139,7 +139,7 @@ Ext.onReady(function(){
             data &copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors';
 
     // Define the English OpenStreetMap layer
-    var osmtoolsEnUrl = 'http://{s}.laostile.osm-tools.org/osm_en/{z}/{x}/{y}.png';
+    var osmtoolsEnUrl = 'http://{s}.laostile.osm-tools.org/osm/{z}/{x}/{y}.png';
     var osmEnLayer = new L.TileLayer(osmtoolsEnUrl, {
         attribution: attribution,
         minZoom: 5,
@@ -147,7 +147,7 @@ Ext.onReady(function(){
     });
 
     // Define the Lao OpenStreetMap layer
-    var osmtoolsLoUrl = 'http://{s}.laostile.osm-tools.org/osm_th/{z}/{x}/{y}.png';
+    var osmtoolsLoUrl = 'http://{s}.laostile.osm-tools.org/osm/{z}/{x}/{y}.png';
     var osmLoLayer = new L.TileLayer(osmtoolsLoUrl, {
         attribution: attribution,
         minZoom: 5,
